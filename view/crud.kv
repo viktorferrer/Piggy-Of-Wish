@@ -1,0 +1,113 @@
+#:kivy
+<gerenciarTela>:
+    TelaInicial:
+    CadastrarUser:
+    ListarUser:
+
+<TelaInicial>:
+    name: 'Tela Inicial'
+    AnchorLayout:
+        anchor_x:'center'
+        anchor_y:'center'
+
+        RelativeLayout:
+            size_hint:[0.7, 1]
+            canvas:
+                Color:
+                    rgba: .30, .25, .2, 1
+                Rectangle:
+                    pos: root.pos
+                    size: self.size
+                Button:
+                    size_hint: 1, 0.2
+                    pos_hint: {'x':0, 'y': 0.500}
+                    on_release: app.root.telaCadUser()
+                    text: 'Cadastrar User'
+                Button:
+                    size_hint: 1, 0.2
+                    pos_hint: {'x':0, 'y': 0.300}
+                    on_release: app.root.telaListarUser()
+                    text: 'Listar User'
+
+                Label:
+                    text:""
+
+<CadastroUser>
+    name:'CadastroUser'
+
+    AnchorLayout:
+        id: 'interno'
+        anchor_x:'center'
+        anchor_y:'center'
+        BoxLayout:
+            id: 'interno1'
+            orientation:'vertical'
+            size_hint:[0.7, 1]
+
+            canvas:
+                Color:
+                    rgba: .30, .25, .1, 1
+                Rectangle:
+                    pos: self.pos
+                    size: self.size
+                Label:
+                    text: 'ID:'
+                    size_hint: [1, .25]
+                Label:
+                    id:'lblId'
+                    size_hint: [1, .15]
+                    canvas.before:
+                        Color:
+                            rgba: 1, 1, 1, .7
+                        Rectangle:
+                            pos: self.pos
+                            size: self.size
+                Label:
+                    text: 'nome'
+                    size_hint: [1, .25]
+
+                TextInput:
+                    id: 'inputNome'
+                    hint_test: 'Nome:'
+                    size_hint: [1, .15]
+                    multiline: False
+                
+                Label:
+                    text: 'Email: '
+                    size_hint: [1, .25]
+                GridLayout:
+                    id: 'email'
+                    cols: 1
+                    padding: 10,10
+                    spacing: 1,1
+                    row_default_height: '30dp'
+                    canvas:
+                        Color:
+                            rgba: .10, .25, .1, 1
+                        Rectangle:
+                            pos: self.pos
+                            size: self.size
+                    Label:
+                        text: 'Teste'
+                        font_size: '12sp'
+                        valign: 'middle'
+                        size_hint: [1, .25]
+
+                    CheckBox:
+                        group:' email'
+                        id: 'chkteste'
+                        value: 'Teste'
+                        size_hint: [1, .25]
+                
+                GridLayout:
+                    cols: 2
+                    size_hint: [1, 0.25]
+                    orientation: 'vertical'
+                    Button:
+                        on_release: app.root.cadastrar()
+                        text: 'Cadastrar'
+                        size_hint: [1, 0.25]
+                    Button:
+                        on_release: app.root.telaInicial()
+                        text: 'Tela Inicial'
+                        size_hint: [1, 0.25]
