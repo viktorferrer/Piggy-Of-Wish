@@ -1,0 +1,41 @@
+{
+  "5b7cab5f-12f2-4ee9-af96-13b9ccfbb3ef": {
+    "connectionParameters": {
+      "database": "piggyofwish",
+      "server": "server-db-lab.database.windows.net",
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Premium",
+      "displayName": "SQL Server",
+      "iconUri": "https://connectoricons-prod.azureedge.net/non_zr_connectors/1.0.1575.2789/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/23811604-35a1-4b33-85f2-e3e02716200d"
+    },
+    "datasets": {
+      "server-db-lab.database.windows.net,piggyofwish": {
+        "dataSources": {
+          "PRODUTO": {
+            "tableName": "[dbo].[PRODUTO]"
+          },
+          "PRODUTO_USUARIO": {
+            "tableName": "[dbo].[PRODUTO_USUARIO]"
+          },
+          "USUARIO": {
+            "tableName": "[dbo].[USUARIO]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "USUARIO",
+      "PRODUTO",
+      "PRODUTO_USUARIO"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5b7cab5f-12f2-4ee9-af96-13b9ccfbb3ef"
+  }
+}

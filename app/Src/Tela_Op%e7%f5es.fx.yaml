@@ -1,0 +1,91 @@
+"Tela_Opções As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    Fill: =RGBA(230, 230, 230, 1)
+
+    RectQuickActionBar3 As rectangle:
+        Fill: =RGBA(99, 139, 44, 1)
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName3 As label:
+        Align: =Align.Center
+        Height: =88
+        Size: =27
+        Text: ="Olá, Maria"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Icon2_1 As icon.Bell:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =88
+        Icon: =Icon.Bell
+        Width: =79
+        X: =561
+        ZIndex: =3
+
+    Icon3_1 As icon.Hamburger:
+        Color: =RGBA(99, 139, 44, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =88
+        Icon: =Icon.Hamburger
+        Width: =79
+        ZIndex: =4
+
+    Rectangle6 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =1048
+        Width: =235
+        Y: =88
+        ZIndex: =5
+
+    Button3 As button:
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(99, 139, 44, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =55
+        Size: =24
+        Text: ="Perfil"
+        Width: =235
+        Y: =135
+        ZIndex: =6
+
+    Button3_1 As button:
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(99, 139, 44, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =55
+        Size: =24
+        Text: ="Wish list"
+        Width: =235
+        Y: =235
+        ZIndex: =7
+
+    Button3_2 As button:
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(99, 139, 44, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =55
+        Size: =24
+        Text: ="Metas"
+        Width: =235
+        Y: =335
+        ZIndex: =8
+
+    Icon4 As icon.HorizontalLine:
+        Color: =RGBA(54, 176, 75, 1)
+        Height: =25
+        Icon: =Icon.HorizontalLine
+        Width: =196
+        X: =15
+        Y: =422
+        ZIndex: =9
+
+    Rectangle7 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =542
+        Width: =302
+        X: =338
+        Y: =90
+        ZIndex: =10
+
