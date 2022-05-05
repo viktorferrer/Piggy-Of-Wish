@@ -24,11 +24,11 @@
     Label3 As label:
         BorderColor: =RGBA(99, 139, 44, 1)
         Color: =RGBA(255, 255, 255, 1)
-        Height: =52
+        Height: =58
         Size: =27
-        Text: ="Olá, Maria"
-        Width: =217
-        X: =211
+        Text: ="Olá, " &User().FullName
+        Width: =429
+        X: =137
         Y: =15
         ZIndex: =4
 
