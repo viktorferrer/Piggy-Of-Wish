@@ -57,6 +57,7 @@
         DataSource: =PRODUTO
         Height: =814
         Item: =Gallery1.Selected
+        OnSuccess: =Notify("Produto atualizado com sucesso", NotificationType.Success); Navigate(Tela_Wishlist, ScreenTransition.Cover)
         Width: =640
         Y: =190
         ZIndex: =15
@@ -372,16 +373,17 @@
                 Y: =DataCardKey1.Y
                 ZIndex: =4
 
-    Button2 As button:
+    Botao_update As button:
         BorderColor: =ColorFade(RGBA(127, 178, 57, 1), -10%)
         Fill: =RGBA(127, 178, 57, 1)
         Height: =70
         HoverFill: =ColorFade(RGBA(127, 178, 57, 0.66), -20%)
+        OnSelect: =SubmitForm(Form_update)
         Size: =24
         Text: ="Atualizar"
         Width: =280
-        X: =186
-        Y: =848
+        X: =189
+        Y: =821
         ZIndex: =16
 
     Icon1 As icon.ArrowLeft:
