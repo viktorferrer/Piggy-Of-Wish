@@ -31,7 +31,7 @@ Tela_Cad As screen:
         OnSuccess: =Notify("Cadastro efetuado com sucesso!", NotificationType.Success)
         Width: =618
         X: =22
-        Y: =369
+        Y: =481
         ZIndex: =10
 
         NOME_DataCard2 As typedDataCard.textualEditCard:
@@ -58,10 +58,10 @@ Tela_Cad As screen:
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =15
-                Y: =95
+                Y: =10 + (DataCardValue4.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue4 As text:
@@ -81,9 +81,9 @@ Tela_Cad As screen:
                 RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =DataCardKey4.X + DataCardKey4.Width
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage4 As label:
@@ -138,10 +138,10 @@ Tela_Cad As screen:
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue5.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue5 As text:
@@ -161,9 +161,9 @@ Tela_Cad As screen:
                 RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =231
+                Y: =21
                 ZIndex: =2
 
             ErrorMessage5 As label:
@@ -219,10 +219,10 @@ Tela_Cad As screen:
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =Parent.Width - 60
+                Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10
+                Y: =10 + (DataCardValue6.Height / 2) - (Self.Height / 2)
                 ZIndex: =1
 
             DataCardValue6 As text:
@@ -242,9 +242,9 @@ Tela_Cad As screen:
                 RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardKey6.Y + DataCardKey6.Height + 5
+                Width: =(Parent.Width - 60) * 0.6
+                X: =231
+                Y: =10
                 ZIndex: =2
 
             ErrorMessage6 As label:

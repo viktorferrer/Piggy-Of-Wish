@@ -22,11 +22,11 @@
         Height: =78
         Size: =25
         Text: |-
-            ="E-mail
+            ="e-mail
             "
         Width: =122
-        X: =72
-        Y: =537
+        X: =71
+        Y: =525
         ZIndex: =2
 
     Label2_1 As label:
@@ -34,11 +34,11 @@
         Height: =78
         Size: =25
         Text: |-
-            ="Senha
+            ="senha
             "
         Width: =122
-        X: =72
-        Y: =653
+        X: =71
+        Y: =641
         ZIndex: =3
 
     Label2_3 As label:
@@ -62,8 +62,8 @@
         HoverFill: =RGBA(255, 255, 255, 1)
         Size: =21
         Width: =372
-        X: =210
-        Y: =555
+        X: =209
+        Y: =543
         ZIndex: =6
 
     login_senha_input As text:
@@ -75,8 +75,8 @@
         HoverFill: =RGBA(255, 255, 255, 1)
         Size: =21
         Width: =372
-        X: =210
-        Y: =669
+        X: =209
+        Y: =657
         ZIndex: =7
 
     Button1 As button:
@@ -86,7 +86,7 @@
         Fill: =RGBA(0, 0, 0, 0)
         Height: =77
         HoverColor: =RGBA(0, 0, 0, 0)
-        HoverFill: =ColorFade(RGBA(99, 36, 57,2), -20%)
+        HoverFill: =ColorFade(Self.Color, -20%)
         OnSelect: =NewForm(Form_Cad); Navigate(Tela_Cad,ScreenTransition.Cover)
         Size: =24
         Text: ="Cadastre-se"

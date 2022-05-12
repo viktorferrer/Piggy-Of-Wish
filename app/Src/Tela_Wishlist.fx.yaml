@@ -101,7 +101,7 @@
             Y: =Title1.Y + Title1.Height + 4
             ZIndex: =3
 
-        NextArrow1 As icon.ChevronRight:
+        Seta_Editar As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
