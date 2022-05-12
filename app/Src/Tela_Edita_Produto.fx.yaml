@@ -49,8 +49,8 @@
         Size: =24
         Text: ="Editar produto"
         Width: =258
-        X: =197
-        Y: =88
+        X: =191
+        Y: =110
         ZIndex: =14
 
     Form_update As form:
@@ -62,6 +62,7 @@
         ZIndex: =15
 
         NOME_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(127, 178, 57, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="NOME"
             Default: =ThisItem.NOME
@@ -79,6 +80,7 @@
 
             DataCardKey3 As label:
                 AutoHeight: =true
+                Color: =RGBA(99, 139, 44, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -89,17 +91,20 @@
                 ZIndex: =1
 
             DataCardValue3 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Green)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(127, 178, 57, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverBorderColor: =RGBA(187, 221, 140, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -135,6 +140,7 @@
                 ZIndex: =4
 
         MARCA_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(127, 178, 57, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="MARCMaA"
             Default: =ThisItem.MARCA
@@ -152,6 +158,7 @@
 
             DataCardKey2 As label:
                 AutoHeight: =true
+                Color: =RGBA(99, 139, 44, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -165,14 +172,17 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(127, 178, 57, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverBorderColor: =RGBA(187, 221, 140, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -208,6 +218,7 @@
                 ZIndex: =4
 
         VALOR_DataCard1 As typedDataCard.numberEditCard:
+            BorderColor: =RGBA(127, 178, 57, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="VALOR"
             Default: =ThisItem.VALOR
@@ -224,6 +235,7 @@
 
             DataCardKey7 As label:
                 AutoHeight: =true
+                Color: =RGBA(99, 139, 44, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -237,14 +249,17 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(127, 178, 57, 1)
                 DisplayMode: =Parent.DisplayMode
                 Format: =TextFormat.Number
                 Height: =70
+                HoverBorderColor: =RGBA(187, 221, 140, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
                 PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -280,6 +295,7 @@
                 ZIndex: =4
 
         LINK_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(127, 178, 57, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="LINK"
             Default: =ThisItem.LINK
@@ -297,6 +313,7 @@
 
             DataCardKey1 As label:
                 AutoHeight: =true
+                Color: =RGBA(99, 139, 44, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
@@ -310,14 +327,17 @@
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
+                DisabledBorderColor: =RGBA(127, 178, 57, 1)
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HoverBorderColor: =RGBA(187, 221, 140, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
                 PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
@@ -351,4 +371,24 @@
                 Wrap: =false
                 Y: =DataCardKey1.Y
                 ZIndex: =4
+
+    Button2 As button:
+        BorderColor: =ColorFade(RGBA(127, 178, 57, 1), -10%)
+        Fill: =RGBA(127, 178, 57, 1)
+        Height: =70
+        HoverFill: =ColorFade(RGBA(127, 178, 57, 0.66), -20%)
+        Size: =24
+        Text: ="Atualizar"
+        Width: =280
+        X: =186
+        Y: =848
+        ZIndex: =16
+
+    Icon1 As icon.ArrowLeft:
+        Color: =RGBA(99, 139, 44, 1)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(Tela_Wishlist,CoverRight)
+        X: =17
+        Y: =99
+        ZIndex: =17
 
