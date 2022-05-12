@@ -1,0 +1,47 @@
+"Tela_Cad_Prod_2 As screen.'phoneLayout_HeaderAndGallery_ver3.0'":
+
+    RectQuickActionBar2_4 As rectangle:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(99, 139, 44, 1)
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Label3_4 As label:
+        BorderColor: =RGBA(99, 139, 44, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =58
+        Size: =27
+        Text: ="Olá, " &User().FullName
+        Width: =384
+        X: =137
+        Y: =15
+        ZIndex: =4
+
+    Icon2_5 As icon.Bell:
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(99, 139, 44, 1)
+        Icon: =Icon.Bell
+        X: =547
+        Y: =9
+        ZIndex: =5
+
+    Icon3_5 As icon.Hamburger:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.Hamburger
+        X: =17
+        Y: =9
+        ZIndex: =6
+
+    Titulo_Cad_prod As label:
+        Color: =RGBA(34, 77, 7, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =44
+        Size: =24
+        Text: ="Cadastrar Produto"
+        Width: =336
+        X: =161
+        Y: =115
+        ZIndex: =14
+

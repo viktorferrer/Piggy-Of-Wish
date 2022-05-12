@@ -70,7 +70,7 @@ Tela_Cad As screen:
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(127, 178, 57, 1)
                 DisplayMode: =Parent.DisplayMode
-                Height: =70
+                Height: =56
                 HoverBorderColor: =RGBA(187, 221, 140, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
@@ -81,9 +81,9 @@ Tela_Cad As screen:
                 RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =DataCardKey4.X + DataCardKey4.Width
-                Y: =10
+                Width: =355
+                X: =195
+                Y: =36
                 ZIndex: =2
 
             ErrorMessage4 As label:
@@ -141,7 +141,7 @@ Tela_Cad As screen:
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue5.Height / 2) - (Self.Height / 2)
+                Y: =36
                 ZIndex: =1
 
             DataCardValue5 As text:
@@ -150,7 +150,7 @@ Tela_Cad As screen:
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(127, 178, 57, 1)
                 DisplayMode: =Parent.DisplayMode
-                Height: =70
+                Height: =56
                 HoverBorderColor: =RGBA(187, 221, 140, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
@@ -161,9 +161,9 @@ Tela_Cad As screen:
                 RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =231
-                Y: =21
+                Width: =355
+                X: =195
+                Y: =36
                 ZIndex: =2
 
             ErrorMessage5 As label:
@@ -231,7 +231,7 @@ Tela_Cad As screen:
                 DelayOutput: =true
                 DisabledBorderColor: =RGBA(127, 178, 57, 1)
                 DisplayMode: =Parent.DisplayMode
-                Height: =70
+                Height: =56
                 HoverBorderColor: =RGBA(187, 221, 140, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
@@ -242,9 +242,9 @@ Tela_Cad As screen:
                 RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.6
-                X: =231
-                Y: =10
+                Width: =355
+                X: =195
+                Y: =36
                 ZIndex: =2
 
             ErrorMessage6 As label:
