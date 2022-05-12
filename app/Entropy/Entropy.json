@@ -114,7 +114,7 @@
     "VALOR_DataCard1": 114
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "05/12/2022 00:24:06",
+  "HeaderLastSavedDateTimeUTC": "05/12/2022 00:25:11",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5b7cab5f-12f2-4ee9-af96-13b9ccfbb3ef": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/23811604-35a1-4b33-85f2-e3e02716200d\""
@@ -191,7 +191,7 @@
     "galleryTemplate1": 57,
     "galleryTemplate2": 29,
     "Home": 0,
-    "Icon1": 69,
+    "Icon1": 68,
     "Icon1_1": 27,
     "Icon1_3": 8,
     "Icon2": 33,
@@ -208,7 +208,7 @@
     "Image3": 10,
     "Image7": 43,
     "Image8": 47,
-    "Label_Edit": 68,
+    "Label_Edit": 69,
     "Label1": 0,
     "Label1_1": 9,
     "Label10": 42,
