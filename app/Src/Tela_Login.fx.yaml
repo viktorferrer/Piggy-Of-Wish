@@ -54,8 +54,12 @@
         ZIndex: =5
 
     login_email_input As text:
+        BorderColor: =RGBA(127, 178, 57, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(127, 178, 57, 1)
         Height: =58
+        HoverBorderColor: =RGBA(187, 221, 140, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
         Size: =21
         Width: =390
         X: =210
@@ -63,8 +67,12 @@
         ZIndex: =6
 
     login_senha_input As text:
+        BorderColor: =RGBA(127, 178, 57, 1)
         Default: =""
+        DisabledBorderColor: =RGBA(127, 178, 57, 1)
         Height: =58
+        HoverBorderColor: =RGBA(209, 232, 178, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
         Size: =21
         Width: =390
         X: =210
@@ -89,7 +97,7 @@
     Icon1_3 As icon.ArrowRight:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ArrowRight
-        OnSelect: =LookUp(USUARIO, EMAIL = login_email_input.Text And SENHA = login_senha_input.Text) ; Navigate(Tela_Perfil, ScreenTransition.Cover )
+        OnSelect: =LookUp(USUARIO, EMAIL = login_email_input.Text And SENHA = login_senha_input.Text) ; Navigate(Home, ScreenTransition.Cover )
         X: =540
         Y: =936
         ZIndex: =10

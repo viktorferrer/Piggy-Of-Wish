@@ -106,7 +106,7 @@
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
+            OnSelect: =Select(Parent);EditForm(Form_update);Navigate(Tela_Edita_Produto, CoverRight)
             PaddingBottom: =10
             PaddingLeft: =10
             PaddingRight: =10
