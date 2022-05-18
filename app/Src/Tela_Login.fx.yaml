@@ -98,7 +98,7 @@
     Icon1_3 As icon.ArrowRight:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ArrowRight
-        OnSelect: =LookUp(USUARIO, EMAIL = login_email_input.Text And SENHA = login_senha_input.Text) ; Navigate(Home, ScreenTransition.Cover )
+        OnSelect: =LookUp(USUARIO, EMAIL = login_email_input.Text And SENHA = login_senha_input.Text) ; Navigate(Tela_Opções, ScreenTransition.Cover )
         X: =540
         Y: =936
         ZIndex: =10

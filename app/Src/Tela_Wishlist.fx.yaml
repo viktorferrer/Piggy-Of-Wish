@@ -104,6 +104,7 @@
         Seta_Editar As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
+            HoverColor: =ColorFade(Self.Color, 50%)
             Icon: =Icon.ChevronRight
             OnSelect: =Select(Parent);EditForm(Form_update);Navigate(Tela_Edita_Produto, CoverRight)
             PaddingBottom: =10
@@ -127,6 +128,7 @@
         Remove_produto As icon.Trash:
             Color: =RGBA(255, 0, 0, 1)
             Height: =40
+            HoverColor: =ColorFade(Self.Color, 50%)
             Icon: =Icon.Trash
             OnSelect: =Remove(PRODUTO,ThisItem);Notify("Produto removido com sucesso!", NotificationType.Success);Navigate(Tela_Wishlist,ScreenTransition.Cover)
             Width: =44
