@@ -12,8 +12,8 @@ Menu As CanvasComponent:
 
     Rectangle8 As rectangle:
         Fill: =RGBA(127, 178, 57, 1)
-        Height: =322
-        Width: =640
+        Height: =338
+        Width: =If(VarExpandir, 640, 0)
         ZIndex: =1
 
     RectQuickActionBar2_5 As rectangle:
@@ -43,8 +43,8 @@ Menu As CanvasComponent:
         Size: =21
         Text: ="Cadastrar Produto"
         Width: =319
-        X: =183
-        Y: =88
+        X: =160
+        Y: =104
         ZIndex: =4
 
     Icon5 As icon.CheckBadge:
@@ -52,8 +52,8 @@ Menu As CanvasComponent:
         Height: =44
         Icon: =Icon.Lightbulb
         Width: =47
-        X: =136
-        Y: =183
+        X: =113
+        Y: =199
         ZIndex: =5
 
     Label5_1 As label:
@@ -63,8 +63,8 @@ Menu As CanvasComponent:
         Size: =21
         Text: ="WishList"
         Width: =319
-        X: =183
-        Y: =166
+        X: =160
+        Y: =182
         ZIndex: =6
 
     Icon5_1 As icon.CheckBadge:
@@ -72,8 +72,8 @@ Menu As CanvasComponent:
         Height: =44
         Icon: =Icon.AddLibrary
         Width: =47
-        X: =136
-        Y: =105
+        X: =113
+        Y: =121
         ZIndex: =7
 
     Label5_2 As label:
@@ -83,8 +83,8 @@ Menu As CanvasComponent:
         Size: =21
         Text: ="Editar Perfil"
         Width: =319
-        X: =183
-        Y: =244
+        X: =160
+        Y: =260
         ZIndex: =8
 
     Icon5_2 As icon.CheckBadge:
@@ -92,8 +92,8 @@ Menu As CanvasComponent:
         Height: =44
         Icon: =Icon.Edit
         Width: =47
-        X: =136
-        Y: =261
+        X: =113
+        Y: =277
         ZIndex: =9
 
     Label15 As label:
