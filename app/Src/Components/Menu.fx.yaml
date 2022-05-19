@@ -12,7 +12,7 @@ Menu As CanvasComponent:
 
     Rectangle8 As rectangle:
         Fill: =RGBA(127, 178, 57, 1)
-        Height: =338
+        Height: =285
         Width: =If(VarExpandir, 640, 0)
         ZIndex: =1
 
@@ -44,16 +44,17 @@ Menu As CanvasComponent:
         Text: ="Cadastrar Produto"
         Width: =319
         X: =160
-        Y: =104
+        Y: =88
         ZIndex: =4
 
     Icon5 As icon.CheckBadge:
         Color: =RGBA(255, 255, 255, 1)
         Height: =44
         Icon: =Icon.Lightbulb
+        OnSelect: =Navigate(LookUp(Menu.PropTabela,Id=2,Tela),ScreenTransition.Fade)
         Width: =47
         X: =113
-        Y: =199
+        Y: =166
         ZIndex: =5
 
     Label5_1 As label:
@@ -63,17 +64,18 @@ Menu As CanvasComponent:
         Size: =21
         Text: ="WishList"
         Width: =319
-        X: =160
-        Y: =182
+        X: =159
+        Y: =149
         ZIndex: =6
 
     Icon5_1 As icon.CheckBadge:
         Color: =RGBA(255, 255, 255, 1)
         Height: =44
         Icon: =Icon.AddLibrary
+        OnSelect: =Navigate(LookUp(Menu.PropTabela,Id=1,Tela),ScreenTransition.Fade)
         Width: =47
         X: =113
-        Y: =121
+        Y: =105
         ZIndex: =7
 
     Label5_2 As label:
@@ -84,16 +86,17 @@ Menu As CanvasComponent:
         Text: ="Editar Perfil"
         Width: =319
         X: =160
-        Y: =260
+        Y: =210
         ZIndex: =8
 
     Icon5_2 As icon.CheckBadge:
         Color: =RGBA(255, 255, 255, 1)
         Height: =44
         Icon: =Icon.Edit
+        OnSelect: =Navigate(LookUp(Menu.PropTabela,Id=3,Tela),ScreenTransition.Fade)
         Width: =47
         X: =113
-        Y: =277
+        Y: =227
         ZIndex: =9
 
     Label15 As label:

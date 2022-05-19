@@ -7,8 +7,8 @@
         Size: =24
         Text: ="Cadastrar Produto"
         Width: =336
-        X: =188
-        Y: =163
+        X: =155
+        Y: =194
         ZIndex: =14
 
     Form_Cad_Prod As form:
@@ -343,5 +343,7 @@
         ZIndex: =16
 
     Menu_4 As Menu:
+        PropTabela: |-
+            =Table({Tela: Tela_Cad_Prod,Id:1},{Tela: Tela_Wishlist,Id:2},{Tela: Tela_Edita_Perfil,Id:3})
         ZIndex: =17
 

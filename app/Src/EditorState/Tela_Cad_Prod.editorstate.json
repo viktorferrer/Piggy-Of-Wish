@@ -4652,7 +4652,14 @@
         "X",
         "Y",
         "ZIndex",
-        "PropTabela",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "Table({Tela: App.ActiveScreen,Id:1})",
+          "InvariantPropertyName": "PropTabela",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "PropTela",
         "Tamanho"
       ],
@@ -4677,7 +4684,7 @@
         {
           "Category": "Data",
           "PropertyName": "PropTabela",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Data",

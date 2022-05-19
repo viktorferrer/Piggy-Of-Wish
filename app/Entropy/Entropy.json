@@ -164,7 +164,7 @@
     "VALOR_DataCard2": 73
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "05/19/2022 01:21:38",
+  "HeaderLastSavedDateTimeUTC": "05/19/2022 01:33:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5b7cab5f-12f2-4ee9-af96-13b9ccfbb3ef": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/23811604-35a1-4b33-85f2-e3e02716200d\""
