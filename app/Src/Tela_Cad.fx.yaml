@@ -140,8 +140,8 @@ Tela_Cad As screen:
                 Text: =Parent.DisplayName
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
-                X: =30
-                Y: =36
+                X: =43
+                Y: =54
                 ZIndex: =1
 
             DataCardValue5 As text:
@@ -222,7 +222,7 @@ Tela_Cad As screen:
                 Width: =(Parent.Width - 60) * 0.4
                 Wrap: =false
                 X: =30
-                Y: =10 + (DataCardValue6.Height / 2) - (Self.Height / 2)
+                Y: =40
                 ZIndex: =1
 
             DataCardValue6 As text:
