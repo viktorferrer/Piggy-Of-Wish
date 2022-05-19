@@ -2,7 +2,7 @@ Menu As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =1136
     PropTabela: |-
-        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
+        =Table({Tela: App.ActiveScreen,Id:1})
     PropTela: =App.ActiveScreen
     Tamanho: =100
     Width: =640
@@ -95,4 +95,17 @@ Menu As CanvasComponent:
         X: =113
         Y: =277
         ZIndex: =9
+
+    Label15 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =48
+        Size: =26
+        Text: ="Olá, " &User().FullName
+        Width: =440
+        X: =99
+        Y: =25
+        ZIndex: =10
 

@@ -9,14 +9,15 @@
         ZIndex: =8
 
     Label_Edit_1 As label:
+        Align: =Align.Center
         Color: =RGBA(34, 77, 7, 1)
         FontWeight: =FontWeight.Bold
         Height: =58
         Size: =24
-        Text: ="Editar produto"
+        Text: ="Editar Perfil"
         Width: =258
-        X: =191
-        Y: =110
+        X: =188
+        Y: =163
         ZIndex: =14
 
     Botao_update_1 As button:
@@ -246,4 +247,9 @@
                 X: =30
                 Y: =DataCardValue18.Y + DataCardValue18.Height
                 ZIndex: =3
+
+    Menu_1 As Menu:
+        PropTabela: |-
+            =Table({Tela: Tela_Cad_Prod,Id:1},{Tela: Tela_Wishlist,Id:2},{Tela: Tela_Edita_Perfil,Id:3})
+        ZIndex: =19
 

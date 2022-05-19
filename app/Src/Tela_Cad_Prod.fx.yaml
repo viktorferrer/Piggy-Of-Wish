@@ -41,8 +41,8 @@
         Size: =24
         Text: ="Cadastrar Produto"
         Width: =336
-        X: =161
-        Y: =115
+        X: =188
+        Y: =163
         ZIndex: =14
 
     Form_Cad_Prod As form:
@@ -50,7 +50,8 @@
         DataSource: =PRODUTO
         Height: =686
         Width: =634
-        Y: =186
+        X: =6
+        Y: =256
         ZIndex: =15
 
         NOME_DataCard3 As typedDataCard.textualEditCard:
@@ -371,7 +372,7 @@
         Color: =RGBA(99, 139, 44, 1)
         Icon: =Icon.ArrowRight
         OnSelect: =SubmitForm(Form_Cad_Prod);
-        X: =521
-        Y: =828
+        X: =547
+        Y: =878
         ZIndex: =16
 
