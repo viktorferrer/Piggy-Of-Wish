@@ -6,7 +6,7 @@
         Width: =588
         X: =23
         Y: =310
-        ZIndex: =8
+        ZIndex: =1
 
     Label10_1 As label:
         Color: =RGBA(34, 77, 7, 1)
@@ -15,20 +15,20 @@
         Size: =24
         Text: ="Wishlist"
         Width: =166
-        X: =234
-        Y: =88
-        ZIndex: =14
+        X: =237
+        Y: =134
+        ZIndex: =2
 
     "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Height: =854
+        Height: =767
         Items: =PRODUTO
         Layout: =Layout.Vertical
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
         Transition: =Transition.Pop
-        Y: =144
-        ZIndex: =15
+        Y: =238
+        ZIndex: =3
 
         Image2 As image:
             Height: =128
@@ -103,5 +103,6 @@
             ZIndex: =6
 
     Menu_3 As Menu:
-        ZIndex: =16
+        Height: =396
+        ZIndex: =4
 
