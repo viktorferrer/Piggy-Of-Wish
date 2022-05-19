@@ -1,39 +1,5 @@
 "Tela_Wishlist As screen.'phoneLayout_HeaderAndGallery_ver3.0'":
 
-    RectQuickActionBar2_1 As rectangle:
-        BorderColor: =RGBA(99, 139, 44, 1)
-        DisplayMode: =DisplayMode.View
-        Fill: =RGBA(99, 139, 44, 1)
-        Height: =88
-        Width: =Parent.Width
-        ZIndex: =2
-
-    Label3_1 As label:
-        BorderColor: =RGBA(99, 139, 44, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =58
-        Size: =27
-        Text: ="Olá, " &User().FullName
-        Width: =384
-        X: =137
-        Y: =15
-        ZIndex: =4
-
-    Icon2_2 As icon.Bell:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(99, 139, 44, 1)
-        Icon: =Icon.Bell
-        X: =547
-        Y: =9
-        ZIndex: =5
-
-    Icon3_2 As icon.Hamburger:
-        Color: =RGBA(255, 255, 255, 1)
-        Icon: =Icon.Hamburger
-        X: =17
-        Y: =9
-        ZIndex: =6
-
     Rectangle2_1 As rectangle:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =209
@@ -135,4 +101,7 @@
             X: =485
             Y: =60
             ZIndex: =6
+
+    Menu_3 As Menu:
+        ZIndex: =16
 
