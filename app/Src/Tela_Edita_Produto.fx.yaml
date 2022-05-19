@@ -129,17 +129,6 @@
                 Y: =DataCardValue3.Y + DataCardValue3.Height
                 ZIndex: =3
 
-            StarVisible3 As label:
-                Align: =Align.Center
-                Height: =DataCardKey3.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey3.Y
-                ZIndex: =4
-
         MARCA_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(127, 178, 57, 1)
             BorderStyle: =BorderStyle.Solid

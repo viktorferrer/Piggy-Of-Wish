@@ -1,40 +1,52 @@
-Tela_Cad As screen:
-    Fill: =RGBA(87, 164, 40, 0.73)
+"Tela_Edita_Perfil As screen.'phoneLayout_HeaderAndGallery_ver3.0'":
 
-    Label1_1 As label:
-        Align: =Align.Center
+    Rectangle2_3 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =209
+        Width: =588
+        X: =23
+        Y: =310
+        ZIndex: =8
+
+    Label_Edit_1 As label:
         Color: =RGBA(34, 77, 7, 1)
-        Font: =Font.'Lato Black'
         FontWeight: =FontWeight.Bold
-        Height: =304
-        Size: =60
-        Text: |-
-            ="Piggy 
-            of
-             Wishes"
-        Width: =316
-        X: =168
-        Y: =114
-        ZIndex: =1
+        Height: =58
+        Size: =24
+        Text: ="Editar produto"
+        Width: =258
+        X: =191
+        Y: =110
+        ZIndex: =14
 
-    Icon1_1 As icon.ArrowRight:
-        Color: =RGBA(255, 255, 255, 1)
-        Icon: =Icon.ArrowRight
-        OnSelect: =SubmitForm(Form_Cad)
-        X: =540
-        Y: =936
-        ZIndex: =9
+    Botao_update_1 As button:
+        BorderColor: =ColorFade(RGBA(127, 178, 57, 1), -10%)
+        Fill: =RGBA(127, 178, 57, 1)
+        Height: =70
+        HoverFill: =ColorFade(RGBA(127, 178, 57, 0.66), -20%)
+        OnSelect: =SubmitForm(Form_Update_Perfil)
+        Size: =24
+        Text: ="Atualizar"
+        Width: =280
+        X: =189
+        Y: =821
+        ZIndex: =16
 
-    Form_Cad As form:
+    Icon1_2 As icon.ArrowLeft:
+        Color: =RGBA(99, 139, 44, 1)
+        Icon: =Icon.ArrowLeft
+        OnSelect: =Navigate(Tela_Wishlist,CoverRight)
+        X: =17
+        Y: =99
+        ZIndex: =17
+
+    Form_Update_Perfil As form:
         DataSource: =USUARIO
-        Height: =414
-        OnSuccess: =Notify("Cadastro efetuado com sucesso!", NotificationType.Success)
-        Width: =618
-        X: =22
-        Y: =481
-        ZIndex: =10
+        Width: =640
+        Y: =261
+        ZIndex: =18
 
-        NOME_DataCard2 As typedDataCard.textualEditCard:
+        NOME_DataCard4 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(99, 139, 44, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="NOME"
@@ -45,32 +57,31 @@ Tela_Cad As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@USUARIO], DataSourceInfo.MaxLength, "NOME")
             Required: =true
-            Update: =DataCardValue4.Text
-            Width: =627
+            Update: =DataCardValue12.Text
+            Width: =640
             X: =0
             Y: =0
             ZIndex: =1
 
-            DataCardKey4 As label:
+            DataCardKey12 As label:
                 AutoHeight: =true
-                Color: =RGBA(34, 77, 7, 1)
-                DisabledColor: =RGBA(34, 77, 7, 1)
+                Color: =RGBA(99, 139, 44, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =40
+                Y: =10
                 ZIndex: =1
 
-            DataCardValue4 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+            DataCardValue12 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Green)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisabledBorderColor: =RGBA(127, 178, 57, 1)
+                DisabledBorderColor: =RGBA(99, 139, 44, 1)
                 DisplayMode: =Parent.DisplayMode
-                Height: =56
+                Height: =70
                 HoverBorderColor: =RGBA(187, 221, 140, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
@@ -81,12 +92,12 @@ Tela_Cad As screen:
                 RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =355
-                X: =195
-                Y: =36
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey12.Y + DataCardKey12.Height + 5
                 ZIndex: =2
 
-            ErrorMessage4 As label:
+            ErrorMessage12 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -99,102 +110,10 @@ Tela_Cad As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue4.Y + DataCardValue4.Height
+                Y: =DataCardValue12.Y + DataCardValue12.Height
                 ZIndex: =3
 
-            StarVisible4 As label:
-                Align: =Align.Center
-                Color: =RGBA(34, 77, 7, 1)
-                Height: =DataCardKey4.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey4.Y
-                ZIndex: =4
-
-        EMAIL_DataCard2 As typedDataCard.textualEditCard:
-            BorderColor: =RGBA(99, 139, 44, 1)
-            BorderStyle: =BorderStyle.Solid
-            DataField: ="EMAIL"
-            Default: =ThisItem.EMAIL
-            DisplayMode: =Parent.DisplayMode
-            DisplayName: =DataSourceInfo([@USUARIO],DataSourceInfo.DisplayName,"EMAIL")
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =50
-            MaxLength: =DataSourceInfo([@USUARIO], DataSourceInfo.MaxLength, "EMAIL")
-            Required: =true
-            Update: =DataCardValue5.Text
-            Width: =627
-            X: =0
-            Y: =1
-            ZIndex: =1
-
-            DataCardKey5 As label:
-                AutoHeight: =true
-                Color: =RGBA(34, 77, 7, 1)
-                DisabledColor: =RGBA(34, 77, 7, 1)
-                Height: =48
-                Size: =21
-                Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
-                Wrap: =false
-                X: =30
-                Y: =40
-                ZIndex: =1
-
-            DataCardValue5 As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                Default: =Parent.Default
-                DelayOutput: =true
-                DisabledBorderColor: =RGBA(127, 178, 57, 1)
-                DisplayMode: =Parent.DisplayMode
-                Height: =56
-                HoverBorderColor: =RGBA(187, 221, 140, 1)
-                HoverFill: =RGBA(255, 255, 255, 1)
-                MaxLength: =Parent.MaxLength
-                PaddingLeft: =5
-                RadiusBottomLeft: =10
-                RadiusBottomRight: =10
-                RadiusTopLeft: =10
-                RadiusTopRight: =10
-                Size: =21
-                Tooltip: =Parent.DisplayName
-                Width: =355
-                X: =195
-                Y: =36
-                ZIndex: =2
-
-            ErrorMessage5 As label:
-                AutoHeight: =true
-                Height: =10
-                Live: =Live.Assertive
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Size: =24
-                Text: =Parent.Error
-                Visible: =Parent.DisplayMode=DisplayMode.Edit
-                Width: =Parent.Width - 60
-                X: =30
-                Y: =DataCardValue5.Y + DataCardValue5.Height
-                ZIndex: =3
-
-            StarVisible5 As label:
-                Align: =Align.Center
-                Color: =RGBA(34, 77, 7, 1)
-                Height: =DataCardKey5.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey5.Y
-                ZIndex: =4
-
-        SENHA_DataCard2 As typedDataCard.textualEditCard:
+        SENHA_DataCard1 As typedDataCard.textualEditCard:
             BorderColor: =RGBA(99, 139, 44, 1)
             BorderStyle: =BorderStyle.Solid
             DataField: ="SENHA"
@@ -205,33 +124,31 @@ Tela_Cad As screen:
             Height: =50
             MaxLength: =DataSourceInfo([@USUARIO], DataSourceInfo.MaxLength, "SENHA")
             Required: =true
-            Update: =DataCardValue6.Text
-            Visible: =true
-            Width: =627
+            Update: =DataCardValue14.Text
+            Width: =640
             X: =0
             Y: =2
             ZIndex: =1
 
-            DataCardKey6 As label:
+            DataCardKey14 As label:
                 AutoHeight: =true
-                Color: =RGBA(34, 77, 7, 1)
-                DisabledColor: =RGBA(34, 77, 7, 1)
+                Color: =RGBA(99, 139, 44, 1)
                 Height: =48
                 Size: =21
                 Text: =Parent.DisplayName
-                Width: =(Parent.Width - 60) * 0.4
+                Width: =Parent.Width - 60
                 Wrap: =false
                 X: =30
-                Y: =40
+                Y: =10
                 ZIndex: =1
 
-            DataCardValue6 As text:
+            DataCardValue14 As text:
                 BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
                 Default: =Parent.Default
                 DelayOutput: =true
-                DisabledBorderColor: =RGBA(127, 178, 57, 1)
+                DisabledColor: =RGBA(255, 255, 255, 1)
                 DisplayMode: =Parent.DisplayMode
-                Height: =56
+                Height: =70
                 HoverBorderColor: =RGBA(187, 221, 140, 1)
                 HoverFill: =RGBA(255, 255, 255, 1)
                 MaxLength: =Parent.MaxLength
@@ -242,12 +159,12 @@ Tela_Cad As screen:
                 RadiusTopRight: =10
                 Size: =21
                 Tooltip: =Parent.DisplayName
-                Width: =355
-                X: =195
-                Y: =36
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey14.Y + DataCardKey14.Height + 5
                 ZIndex: =2
 
-            ErrorMessage6 As label:
+            ErrorMessage14 As label:
                 AutoHeight: =true
                 Height: =10
                 Live: =Live.Assertive
@@ -260,25 +177,73 @@ Tela_Cad As screen:
                 Visible: =Parent.DisplayMode=DisplayMode.Edit
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardValue6.Y + DataCardValue6.Height
+                Y: =DataCardValue14.Y + DataCardValue14.Height
                 ZIndex: =3
 
-            StarVisible6 As label:
-                Align: =Align.Center
-                Color: =RGBA(34, 77, 7, 1)
-                DisabledColor: =RGBA(34, 77, 7, 1)
-                Height: =DataCardKey6.Height
-                Size: =21
-                Text: ="*"
-                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
-                Width: =30
-                Wrap: =false
-                Y: =DataCardKey6.Y
-                ZIndex: =4
+        EMAIL_DataCard4 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(99, 139, 44, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="EMAIL"
+            Default: =ThisItem.EMAIL
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@USUARIO],DataSourceInfo.DisplayName,"EMAIL")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@USUARIO], DataSourceInfo.MaxLength, "EMAIL")
+            Required: =true
+            Update: =DataCardValue18.Text
+            Width: =640
+            X: =0
+            Y: =3
+            ZIndex: =1
 
-    Image3 As image:
-        Image: =pngegg_1
-        X: =247
-        Y: =216
-        ZIndex: =11
+            DataCardKey18 As label:
+                AutoHeight: =true
+                Color: =RGBA(99, 139, 44, 1)
+                Height: =48
+                Size: =21
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DataCardValue18 As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisabledBorderColor: =RGBA(255, 255, 255, 1)
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                HoverBorderColor: =RGBA(187, 221, 140, 1)
+                HoverFill: =RGBA(255, 255, 255, 1)
+                MaxLength: =Parent.MaxLength
+                PaddingLeft: =5
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey18.Y + DataCardKey18.Height + 5
+                ZIndex: =2
+
+            ErrorMessage18 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardValue18.Y + DataCardValue18.Height
+                ZIndex: =3
 

@@ -1,6 +1,10 @@
-Component1 As CanvasComponent:
+Menu As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =1136
+    PropTabela: |-
+        =Table({SampleStringField: "SampleText", SampleNumberField: 10, SampleBooleanField: true})
+    PropTela: =App.ActiveScreen
+    Tamanho: =100
     Width: =640
     X: =0
     Y: =0
@@ -71,4 +75,24 @@ Component1 As CanvasComponent:
         X: =113
         Y: =121
         ZIndex: =7
+
+    Label5_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =78
+        Size: =21
+        Text: ="Editar Perfil"
+        Width: =319
+        X: =160
+        Y: =260
+        ZIndex: =8
+
+    Icon5_2 As icon.CheckBadge:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =44
+        Icon: =Icon.Edit
+        Width: =47
+        X: =113
+        Y: =277
+        ZIndex: =9
 

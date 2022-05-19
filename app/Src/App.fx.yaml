@@ -1,7 +1,6 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: |-
-        =ClearCollect(arrMenu,{Titulo:"Wishlist", Icone:Icon.Lightbulb, Target: Tela_Wishlist})
+    OnStart: =false
     StartScreen: =false
 
     SqlAzureExtension As hostControl.DynamicHostControlVariant:
