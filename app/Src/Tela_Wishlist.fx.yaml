@@ -103,6 +103,6 @@
             ZIndex: =6
 
     Menu_3 As Menu:
-        Height: =396
+        Height: =332
         ZIndex: =4
 
