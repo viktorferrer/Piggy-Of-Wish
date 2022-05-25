@@ -102,13 +102,15 @@
             Y: =60
             ZIndex: =6
 
-    Container1_2 As groupContainer:
-        Fill: =RGBA(99, 139, 44, 1)
-        Height: =75
-        Width: =640
-        ZIndex: =4
+    Group1_1 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =20
+        ZIndex: =7
 
-        "Gallery3_2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        "Gallery3_5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+            DisplayMode: =DisplayMode.View
             Fill: =RGBA(127, 178, 57, 1)
             Height: =tamanho
             Items: |-
@@ -116,10 +118,12 @@
             Layout: =Layout.Vertical
             TemplatePadding: =0
             TemplateSize: =Min(160, Self.Height - 60)
-            ZIndex: =1
+            Transition: =Transition.Pop
+            Y: =74
+            ZIndex: =4
 
-            Title3_2 As label:
-                Height: =1
+            Title3_5 As label:
+                Height: =99
                 OnSelect: =Select(Parent)
                 PaddingBottom: =0
                 PaddingLeft: =0
@@ -127,125 +131,37 @@
                 PaddingTop: =0
                 Text: =ThisItem.Nome
                 VerticalAlign: =VerticalAlign.Top
-                Width: =193
-                X: =151
+                Width: =173
+                X: =172
+                Y: =60
                 ZIndex: =2
 
-            Subtitle3_2 As label:
-                Height: =1
-                OnSelect: =Select(Parent)
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =ThisItem.Nome
-                VerticalAlign: =VerticalAlign.Top
-                Width: =Title3_2.Width
-                X: =Title3_2.X
-                ZIndex: =3
-
-            Separator3_2 As rectangle:
+            Separator3_5 As rectangle:
                 Height: =1
                 OnSelect: =Select(Parent)
                 Width: =Parent.TemplateWidth
                 Y: =Parent.TemplateHeight - 1
                 ZIndex: =5
 
-            Icon6_2 As icon.Add:
-                Height: =1
-                Icon: =ThisItem.Icone
-                X: =31
-                ZIndex: =6
-
-        Icon8_2 As icon.Hamburger:
-            BorderColor: =RGBA(99, 139, 44, 1)
-            Color: =RGBA(255, 255, 255, 1)
-            FocusedBorderThickness: =5
-            Icon: =Icon.Hamburger
-            OnSelect: |-
-                =UpdateContext({startTimer:true});
-                If(tamanho=400, Set(tamanho,0), Set(tamanho,400))
-            X: =40
-            Y: =3
-            ZIndex: =2
-
-        Label18_2 As label:
+        Label18_5 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
             Fill: =RGBA(99, 139, 44, 1)
             Height: =74
             Size: =22
             Text: ="Olá, " &User().FullName
             Width: =640
-            Y: =1
-            ZIndex: =3
-
-        "Gallery3_3 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-            Fill: =RGBA(127, 178, 57, 1)
-            Height: =75
-            Items: |-
-                =Table({Nome:"Nome", Icone:Icon.Airplane}, {Nome:"Wishlist", Icone:Icon.Lightbulb})
-            Layout: =Layout.Vertical
-            TemplatePadding: =0
-            TemplateSize: =Min(160, Self.Height - 60)
             ZIndex: =5
 
-            Title3_3 As label:
-                Height: =1
-                OnSelect: =Select(Parent)
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =ThisItem.Nome
-                VerticalAlign: =VerticalAlign.Top
-                Width: =193
-                X: =151
-                ZIndex: =2
-
-            Subtitle3_3 As label:
-                Height: =1
-                OnSelect: =Select(Parent)
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =ThisItem.Nome
-                VerticalAlign: =VerticalAlign.Top
-                Width: =Title3_3.Width
-                X: =Title3_3.X
-                ZIndex: =3
-
-            Separator3_3 As rectangle:
-                Height: =1
-                OnSelect: =Select(Parent)
-                Width: =Parent.TemplateWidth
-                Y: =Parent.TemplateHeight - 1
-                ZIndex: =5
-
-            Icon6_3 As icon.Add:
-                Height: =1
-                Icon: =ThisItem.Icone
-                X: =31
-                ZIndex: =6
-
-        Label18_3 As label:
-            Align: =Align.Center
-            Color: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(99, 139, 44, 1)
-            Height: =74
-            Size: =22
-            Text: ="Olá, " &User().FullName
-            Width: =640
-            ZIndex: =6
-
-        Icon8_3 As icon.Hamburger:
+        Icon8_5 As icon.Hamburger:
             BorderColor: =RGBA(99, 139, 44, 1)
             Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
             FocusedBorderThickness: =5
             Icon: =Icon.Hamburger
             OnSelect: =If(tamanho=400, Set(tamanho,0), Set(tamanho,400))
             X: =40
             Y: =3
-            ZIndex: =7
+            ZIndex: =6
 
