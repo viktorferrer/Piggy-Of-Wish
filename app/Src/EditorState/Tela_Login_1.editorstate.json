@@ -791,7 +791,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGallerySeparator1.ID%",
       "Name": "Separator3_4",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1010,7 +1010,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGalleryTitle.ID%",
       "Name": "Title3_4",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

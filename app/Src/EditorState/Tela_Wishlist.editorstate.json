@@ -208,24 +208,10 @@
         "TemplateSize",
         "TemplatePadding",
         "Layout",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Transition",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Transition",
         "LoadingSpinner",
         "LoadingSpinnerColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "DisplayMode",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DisplayMode",
         "BorderColor",
         "DisabledBorderColor",
         "PressedBorderColor",
@@ -518,14 +504,7 @@
         "DisabledFill",
         "PressedFill",
         "HoverFill",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "DisplayMode",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DisplayMode",
         "X",
         "Y",
         "Width",
@@ -1261,14 +1240,7 @@
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "DisplayMode",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "DisplayMode",
         "ZIndex",
         "LineHeight",
         "BorderThickness",
@@ -1945,7 +1917,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGallerySeparator1.ID%",
       "Name": "Separator3_5",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2842,7 +2814,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "%TemplateBrowseGalleryTitle.ID%",
       "Name": "Title3_5",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

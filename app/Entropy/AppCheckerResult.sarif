@@ -1174,19 +1174,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Container1.Icon8.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Container1.Icon8.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod.Container1.Icon8"
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Icon8_5"
               }
             }
           ],
@@ -1204,19 +1204,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Container1.Icon8.TabIndex"
+                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Container1.Icon8.TabIndex",
+                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod.Container1.Icon8"
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Icon8_5"
               }
             }
           ],
@@ -1234,19 +1234,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Container1.Gallery3.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Container1.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod.Container1.Gallery3"
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery3_5"
               }
             }
           ],
@@ -1264,19 +1264,319 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Container1.Gallery3.TabIndex"
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Container1.Gallery3.TabIndex",
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery3_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.Remove_produto.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.Remove_produto.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery1.Remove_produto"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.Remove_produto.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.Remove_produto.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery1.Remove_produto"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.BrowseGallery2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.BrowseGallery2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Home",
+                "type": "Home.BrowseGallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Home.BrowseGallery2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Home.BrowseGallery2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Home",
+                "type": "Home.BrowseGallery2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Icon8_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_6.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod.Container1.Gallery3"
+                "type": "Tela_Cad_Prod.Icon8_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Gallery3_6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_6.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_6.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Gallery3_6"
               }
             }
           ],
@@ -1457,6 +1757,276 @@
                 "member": "TabIndex",
                 "module": "Tela_Cad_Prod",
                 "type": "Tela_Cad_Prod.Icon9"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad_Prod_2",
+                "type": "Tela_Cad_Prod_2.Icon8_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_7.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_7.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Cad_Prod_2",
+                "type": "Tela_Cad_Prod_2.Icon8_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_7.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_7.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad_Prod_2",
+                "type": "Tela_Cad_Prod_2.Gallery3_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_7.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_7.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Cad_Prod_2",
+                "type": "Tela_Cad_Prod_2.Gallery3_7"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad.Form_Cad.NOME_DataCard2.DataCardValue4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad.Form_Cad.NOME_DataCard2.DataCardValue4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad",
+                "type": "Tela_Cad.Form_Cad.NOME_DataCard2.DataCardValue4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad.Form_Cad.EMAIL_DataCard2.DataCardValue5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad.Form_Cad.EMAIL_DataCard2.DataCardValue5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad",
+                "type": "Tela_Cad.Form_Cad.EMAIL_DataCard2.DataCardValue5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad.Form_Cad.SENHA_DataCard2.DataCardValue6.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad.Form_Cad.SENHA_DataCard2.DataCardValue6.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad",
+                "type": "Tela_Cad.Form_Cad.SENHA_DataCard2.DataCardValue6"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad.Icon1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad.Icon1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad",
+                "type": "Tela_Cad.Icon1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad.Icon1_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad.Icon1_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Cad",
+                "type": "Tela_Cad.Icon1_1"
               }
             }
           ],
@@ -2044,19 +2614,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.TabIndex"
+                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.TabIndex",
+                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_8.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Icon8_8"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_8.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_8.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Gallery3_5"
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Icon8_8"
               }
             }
           ],
@@ -2074,19 +2674,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_8.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_8.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Gallery3_5"
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Gallery3_8"
               }
             }
           ],
@@ -2104,19 +2704,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.TabIndex"
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_8.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.TabIndex",
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_8.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Icon8_5"
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Gallery3_8"
               }
             }
           ],
@@ -2134,19 +2734,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Icon8_5"
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Icon8_9"
               }
             }
           ],
@@ -2164,49 +2764,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Gallery1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.TabIndex",
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Gallery1"
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Icon8_9"
               }
             }
           ],
@@ -2224,19 +2794,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.Remove_produto.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.Remove_produto.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Gallery1.Remove_produto"
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Gallery3_9"
               }
             }
           ],
@@ -2254,19 +2824,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.Remove_produto.TabIndex"
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery1.Remove_produto.TabIndex",
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_9.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Gallery1.Remove_produto"
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Gallery3_9"
               }
             }
           ],
@@ -2278,366 +2848,6 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.BrowseGallery2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.BrowseGallery2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Home",
-                "type": "Home.BrowseGallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Home.BrowseGallery2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Home.BrowseGallery2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Home",
-                "type": "Home.BrowseGallery2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Container1_1.Icon8_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Container1_1.Icon8_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2.Container1_1.Icon8_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Container1_1.Icon8_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Container1_1.Icon8_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2.Container1_1.Icon8_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Container1_1.Gallery3_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Container1_1.Gallery3_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2.Container1_1.Gallery3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Container1_1.Gallery3_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Container1_1.Gallery3_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2.Container1_1.Gallery3_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad.Form_Cad.NOME_DataCard2.DataCardValue4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad.Form_Cad.NOME_DataCard2.DataCardValue4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Cad",
-                "type": "Tela_Cad.Form_Cad.NOME_DataCard2.DataCardValue4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad.Form_Cad.EMAIL_DataCard2.DataCardValue5.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad.Form_Cad.EMAIL_DataCard2.DataCardValue5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Cad",
-                "type": "Tela_Cad.Form_Cad.EMAIL_DataCard2.DataCardValue5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad.Form_Cad.SENHA_DataCard2.DataCardValue6.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad.Form_Cad.SENHA_DataCard2.DataCardValue6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Cad",
-                "type": "Tela_Cad.Form_Cad.SENHA_DataCard2.DataCardValue6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad.Icon1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad.Icon1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Cad",
-                "type": "Tela_Cad.Icon1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad.Icon1_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad.Icon1_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Tela_Cad",
-                "type": "Tela_Cad.Icon1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 6
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad_Prod.startTimer"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.startTimer",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "startTimer",
-                "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 7
         },
         {
           "locations": [
@@ -2667,36 +2877,6 @@
             "level": "Medium"
           },
           "ruleId": "app-InefficientDelayLoading",
-          "ruleIndex": 8
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.startTimer"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.startTimer",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "startTimer",
-                "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
           "ruleIndex": 7
         }
       ],
@@ -2813,23 +2993,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Variável não usada"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remover a variável não usada."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "Essa variável está declarada, mas não é referenciada por nenhum controle, portanto não é necessária."
               }
             },
             {

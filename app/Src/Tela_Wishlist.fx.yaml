@@ -27,7 +27,7 @@
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
         Transition: =Transition.Pop
-        Y: =369
+        Y: =165
         ZIndex: =3
 
         Image2 As image:
@@ -110,7 +110,6 @@
         ZIndex: =7
 
         "Gallery3_5 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-            DisplayMode: =DisplayMode.View
             Fill: =RGBA(127, 178, 57, 1)
             Height: =tamanho
             Items: |-
@@ -118,12 +117,11 @@
             Layout: =Layout.Vertical
             TemplatePadding: =0
             TemplateSize: =Min(160, Self.Height - 60)
-            Transition: =Transition.Pop
             Y: =74
             ZIndex: =4
 
             Title3_5 As label:
-                Height: =99
+                Height: =34
                 OnSelect: =Select(Parent)
                 PaddingBottom: =0
                 PaddingLeft: =0
@@ -132,8 +130,8 @@
                 Text: =ThisItem.Nome
                 VerticalAlign: =VerticalAlign.Top
                 Width: =173
-                X: =172
-                Y: =60
+                X: =182
+                Y: =70
                 ZIndex: =2
 
             Separator3_5 As rectangle:
@@ -146,7 +144,6 @@
         Label18_5 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
             Fill: =RGBA(99, 139, 44, 1)
             Height: =74
             Size: =22
@@ -157,7 +154,6 @@
         Icon8_5 As icon.Hamburger:
             BorderColor: =RGBA(99, 139, 44, 1)
             Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
             FocusedBorderThickness: =5
             Icon: =Icon.Hamburger
             OnSelect: =If(tamanho=400, Set(tamanho,0), Set(tamanho,400))
