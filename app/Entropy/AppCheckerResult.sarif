@@ -1174,49 +1174,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Icon8_5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Icon8_5.TabIndex",
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Icon8_5"
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Icon8_9"
               }
             }
           ],
@@ -1234,19 +1204,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Wishlist",
-                "type": "Tela_Wishlist.Gallery3_5"
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Icon8_9"
               }
             }
           ],
@@ -1288,6 +1258,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery3_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1474,49 +1474,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_6.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_6.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod.Icon8_6"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_6.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_6.TabIndex",
+                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod.Icon8_6"
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Icon8_10"
               }
             }
           ],
@@ -1534,19 +1504,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_6.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_6.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod.Gallery3_6"
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Icon8_10"
               }
             }
           ],
@@ -1564,19 +1534,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_6.TabIndex"
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_6.TabIndex",
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Cad_Prod",
-                "type": "Tela_Cad_Prod.Gallery3_6"
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Gallery3_1"
               }
             }
           ],
@@ -1588,6 +1558,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Gallery3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -1774,49 +1774,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_7.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_11.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_7.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2.Icon8_7"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_7.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_7.TabIndex",
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_11.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2.Icon8_7"
+                "type": "Tela_Cad_Prod_2.Icon8_11"
               }
             }
           ],
@@ -1834,19 +1804,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_7.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_7.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Icon8_11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2.Gallery3_7"
+                "type": "Tela_Cad_Prod_2.Icon8_11"
               }
             }
           ],
@@ -1864,19 +1834,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_7.TabIndex"
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_7.TabIndex",
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Cad_Prod_2",
-                "type": "Tela_Cad_Prod_2.Gallery3_7"
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Gallery3_2"
               }
             }
           ],
@@ -1888,6 +1858,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Gallery3_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2374,49 +2374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Login_1.Gallery3_4.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Login_1.Gallery3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Login_1.Gallery3_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Login_1",
-                "type": "Tela_Login_1.Gallery3_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Login_1.Gallery3_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Login_1.Gallery3_4.TabIndex",
+                  "fullyQualifiedName": "Tela_Login_1.Gallery3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tela_Login_1",
-                "type": "Tela_Login_1.Gallery3_4"
+                "type": "Tela_Login_1.Gallery3"
               }
             }
           ],
@@ -2428,6 +2398,36 @@
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
           "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Login_1.Gallery3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Login_1.Gallery3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Login_1",
+                "type": "Tela_Login_1.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -2614,49 +2614,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_8.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_12.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_8.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "Tela_Edita_Produto",
-                "type": "Tela_Edita_Produto.Icon8_8"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 5
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_8.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "Tela_Edita_Produto.Icon8_8.TabIndex",
+                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_12.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Edita_Produto",
-                "type": "Tela_Edita_Produto.Icon8_8"
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Icon8_12"
               }
             }
           ],
@@ -2674,19 +2644,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_8.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_12.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_8.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Cad_Prod.Icon8_12.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Edita_Produto",
-                "type": "Tela_Edita_Produto.Gallery3_8"
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Icon8_12"
               }
             }
           ],
@@ -2704,19 +2674,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_8.TabIndex"
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_8.TabIndex",
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Edita_Produto",
-                "type": "Tela_Edita_Produto.Gallery3_8"
+                "module": "Tela_Cad_Prod_2",
+                "type": "Tela_Cad_Prod_2.Gallery3_3"
               }
             }
           ],
@@ -2734,19 +2704,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Cad_Prod_2.Gallery3_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Edita_Perfil",
-                "type": "Tela_Edita_Perfil.Icon8_9"
+                "module": "Tela_Cad_Prod_2",
+                "type": "Tela_Cad_Prod_2.Gallery3_3"
               }
             }
           ],
@@ -2764,19 +2734,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.TabIndex"
+                  "fullyQualifiedName": "Tela_Wishlist.Icon8_13.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Edita_Perfil.Icon8_9.TabIndex",
+                  "fullyQualifiedName": "Tela_Wishlist.Icon8_13.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Tela_Edita_Perfil",
-                "type": "Tela_Edita_Perfil.Icon8_9"
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Icon8_13"
               }
             }
           ],
@@ -2794,19 +2764,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_9.AccessibleLabel"
+                  "fullyQualifiedName": "Tela_Wishlist.Icon8_13.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_9.AccessibleLabel",
+                  "fullyQualifiedName": "Tela_Wishlist.Icon8_13.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Tela_Edita_Perfil",
-                "type": "Tela_Edita_Perfil.Gallery3_9"
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Icon8_13"
               }
             }
           ],
@@ -2824,19 +2794,289 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_9.TabIndex"
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_9.TabIndex",
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Gallery3_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Gallery3_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.Icon6_5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.Icon6_5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery3_5.Icon6_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.Icon6_5.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Wishlist.Gallery3_5.Icon6_5.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Wishlist",
+                "type": "Tela_Wishlist.Gallery3_5.Icon6_5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_4.Icon6_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_4.Icon6_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Gallery3_4.Icon6_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_4.Icon6_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Cad_Prod.Gallery3_4.Icon6_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Cad_Prod",
+                "type": "Tela_Cad_Prod.Gallery3_4.Icon6_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_2.Icon6_2.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_2.Icon6_2.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Gallery3_2.Icon6_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_2.Icon6_2.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Edita_Produto.Gallery3_2.Icon6_2.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Tela_Edita_Produto",
+                "type": "Tela_Edita_Produto.Gallery3_2.Icon6_2"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 6
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_1.Icon6_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_1.Icon6_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Tela_Edita_Perfil",
+                "type": "Tela_Edita_Perfil.Gallery3_1.Icon6_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_1.Icon6_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Tela_Edita_Perfil.Gallery3_1.Icon6_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "Tela_Edita_Perfil",
-                "type": "Tela_Edita_Perfil.Gallery3_9"
+                "type": "Tela_Edita_Perfil.Gallery3_1.Icon6_1"
               }
             }
           ],

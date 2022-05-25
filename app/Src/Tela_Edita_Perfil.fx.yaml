@@ -17,7 +17,7 @@
         Text: ="Editar Perfil"
         Width: =258
         X: =188
-        Y: =163
+        Y: =102
         ZIndex: =14
 
     Botao_update_1 As button:
@@ -255,55 +255,56 @@
         Y: =20
         ZIndex: =22
 
-        "Gallery3_9 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-            Fill: =RGBA(127, 178, 57, 1)
-            Height: =tamanho
-            Items: |-
-                =Table({Nome:"Nome", Icone:Icon.Airplane}, {Nome:"Wishlist", Icone:Icon.Lightbulb})
-            Layout: =Layout.Vertical
-            TemplatePadding: =0
-            TemplateSize: =Min(160, Self.Height - 60)
-            Y: =74
-            ZIndex: =19
-
-            Title3_9 As label:
-                Height: =91
-                OnSelect: =Select(Parent)
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                Text: =ThisItem.Nome
-                VerticalAlign: =VerticalAlign.Top
-                Width: =173
-                X: =158
-                Y: =44
-                ZIndex: =2
-
-            Separator3_9 As rectangle:
-                Height: =1
-                OnSelect: =Select(Parent)
-                Width: =Parent.TemplateWidth
-                Y: =Parent.TemplateHeight - 1
-                ZIndex: =5
-
         Label18_9 As label:
             Align: =Align.Center
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(99, 139, 44, 1)
-            Height: =74
+            Height: =82
             Size: =22
             Text: ="Olá, " &User().FullName
             Width: =640
-            ZIndex: =20
+            ZIndex: =19
 
         Icon8_9 As icon.Hamburger:
             BorderColor: =RGBA(99, 139, 44, 1)
             Color: =RGBA(255, 255, 255, 1)
             FocusedBorderThickness: =5
+            Height: =59
             Icon: =Icon.Hamburger
-            OnSelect: =If(tamanho=400, Set(tamanho,0), Set(tamanho,400))
-            X: =40
-            Y: =3
+            OnSelect: =If(tamanho=421, Set(tamanho,0), Set(tamanho,421))
+            X: =37
+            Y: =11
+            ZIndex: =20
+
+        Gallery3_1 As gallery.galleryVertical:
+            Fill: =RGBA(127, 178, 57, 1)
+            Height: =tamanho
+            Items: =arrayMenu
+            Layout: =Layout.Vertical
+            TemplateSize: =96
+            Transition: =Transition.Pop
+            Y: =82
             ZIndex: =21
+
+            Icon6_1 As icon.Add:
+                Color: =RGBA(232, 244, 217, 1)
+                Height: =50
+                Icon: =ThisItem.Icone
+                OnSelect: =Navigate(ThisItem.Target, ScreenTransition.Fade)
+                Width: =49
+                X: =40
+                Y: =20
+                ZIndex: =1
+
+            Label4_1 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =Semibold
+                Height: =51
+                Size: =21
+                Text: =ThisItem.Titulo
+                Width: =410
+                X: =121
+                Y: =20
+                ZIndex: =2
 

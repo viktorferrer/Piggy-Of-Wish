@@ -1,6 +1,29 @@
 App As appinfo:
     BackEnabled: =false
-    OnStart: =false
+    OnStart: |-
+        =ClearCollect(
+            arrayMenu,
+            {
+                Titulo: "Home",
+                Icone: Icon.Home,
+                Target: Home
+            },
+            {
+                Titulo: "Wishlist",
+                Icone: Icon.Lightbulb,
+                Target: Tela_Wishlist
+            },
+            {
+                Titulo: "Cadastrar Produto",
+                Icone: Icon.Airplane,
+                Target: Tela_Cad_Prod
+            },
+            {
+                Titulo: "Editar Perfil",
+                Icone: Icon.Home,
+                Target: Tela_Edita_Perfil
+            }
+        )
     StartScreen: =false
 
     SqlAzureExtension As hostControl.DynamicHostControlVariant:
