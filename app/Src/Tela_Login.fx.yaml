@@ -25,7 +25,7 @@
             ="e-mail
             "
         Width: =122
-        X: =71
+        X: =45
         Y: =525
         ZIndex: =2
 
@@ -37,7 +37,7 @@
             ="senha
             "
         Width: =122
-        X: =71
+        X: =45
         Y: =641
         ZIndex: =3
 
@@ -62,7 +62,7 @@
         HoverFill: =RGBA(255, 255, 255, 1)
         Size: =21
         Width: =372
-        X: =209
+        X: =183
         Y: =543
         ZIndex: =6
 
@@ -75,7 +75,7 @@
         HoverFill: =RGBA(255, 255, 255, 1)
         Size: =21
         Width: =372
-        X: =209
+        X: =183
         Y: =657
         ZIndex: =7
 
@@ -98,7 +98,19 @@
     Icon1_3 As icon.ArrowRight:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ArrowRight
-        OnSelect: =LookUp(USUARIO, EMAIL = login_email_input.Text And SENHA = login_senha_input.Text) ; Navigate(Tela_Wishlist, ScreenTransition.Cover )
+        OnSelect: |-
+            =If(
+            	!IsBlank(
+            		LookUp(
+            			USUARIO, EMAIL = login_email_input.Text And SENHA = login_senha_input.Text
+            		)
+            	),
+            	Navigate(Tela_Wishlist,ScreenTransition.Cover);
+            	UpdateContext({erroLogin: false}),
+            
+            	UpdateContext({erroLogin: true});
+            	Reset(login_email_input), Reset(login_senha_input)
+             )
         X: =540
         Y: =936
         ZIndex: =10
@@ -108,4 +120,16 @@
         X: =250
         Y: =215
         ZIndex: =11
+
+    Label16 As label:
+        Color: =RGBA(151, 0, 0, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =60
+        Size: =21
+        Text: ="Login inválido!"
+        Visible: =erroLogin
+        Width: =260
+        X: =196
+        Y: =743
+        ZIndex: =12
 

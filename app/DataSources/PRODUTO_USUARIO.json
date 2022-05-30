@@ -12,6 +12,7 @@
       "FORMA_POUPAR": "FORMA_POUPAR",
       "ID_PRODUTO": "ID_PRODUTO",
       "ID_USUARIO": "ID_USUARIO",
+      "VALOR_INI": "VALOR_INI",
       "VALOR_POUPADO": "VALOR_POUPADO"
     },
     "DatasetName": "server-db-lab.database.windows.net,piggyofwish",
