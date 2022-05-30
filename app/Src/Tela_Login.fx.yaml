@@ -81,9 +81,10 @@
         ZIndex: =7
 
     Button1 As button:
-        Color: =RGBA(34, 77, 7, 1)
+        AutoDisableOnSelect: =false
+        Color: =RGBA(56, 79, 23, 1)
         DisabledBorderColor: =RGBA(0, 0, 0, 0)
-        DisabledColor: =RGBA(76, 105, 41, 0.74)
+        DisabledColor: =RGBA(0, 0, 0, 0)
         Fill: =RGBA(0, 0, 0, 0)
         Height: =77
         HoverColor: =RGBA(0, 0, 0, 0)
