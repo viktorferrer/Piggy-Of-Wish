@@ -23,7 +23,7 @@ App As appinfo:
                 Icone: Icon.Home,
                 Target: Tela_Edita_Perfil
             }
-        )
+        ); Set(erroLogin,false)
     StartScreen: =false
 
     SqlAzureExtension As hostControl.DynamicHostControlVariant:

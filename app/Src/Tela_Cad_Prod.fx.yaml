@@ -224,7 +224,7 @@
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey10.Y + DataCardKey10.Height + 5
+                Y: =58
                 ZIndex: =2
 
             ErrorMessage10 As label:
@@ -337,7 +337,7 @@
         BorderColor: =RGBA(99, 139, 44, 1)
         Color: =RGBA(99, 139, 44, 1)
         Icon: =Icon.ArrowRight
-        OnSelect: =SubmitForm(Form_Cad_Prod);
+        OnSelect: =SubmitForm(Form_Cad_Prod);Navigate(Tela_Cad_Prod_2,ScreenTransition.Fade)
         X: =538
         Y: =802
         ZIndex: =16
