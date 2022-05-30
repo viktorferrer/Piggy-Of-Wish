@@ -73,6 +73,7 @@
         Height: =52
         HoverBorderColor: =RGBA(209, 232, 178, 1)
         HoverFill: =RGBA(255, 255, 255, 1)
+        Mode: =TextMode.Password
         Size: =21
         Width: =372
         X: =183
