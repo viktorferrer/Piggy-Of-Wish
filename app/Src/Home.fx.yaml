@@ -19,17 +19,6 @@
         Width: =640
         ZIndex: =2
 
-    Label3 As label:
-        BorderColor: =RGBA(99, 139, 44, 1)
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =58
-        Size: =27
-        Text: ="Olá, " &User().FullName
-        Width: =429
-        X: =118
-        Y: =38
-        ZIndex: =4
-
     Icon2 As icon.Bell:
         Color: =RGBA(0, 0, 0, 1)
         Fill: =RGBA(99, 139, 44, 1)
