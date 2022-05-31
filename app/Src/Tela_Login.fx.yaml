@@ -102,17 +102,22 @@
         Icon: =Icon.ArrowRight
         OnSelect: |-
             =If(
-            	!IsBlank(
-            		LookUp(
-            			USUARIO, EMAIL = login_email_input.Text And SENHA = login_senha_input.Text
-            		)
-            	),
-            	Navigate(Tela_Wishlist,ScreenTransition.Cover);
-            	UpdateContext({erroLogin: false}),
-            
-            	UpdateContext({erroLogin: true});
-            	Reset(login_email_input), Reset(login_senha_input)
-             )
+                !IsBlank(
+                    LookUp(
+                        USUARIO,
+                        EMAIL = login_email_input.Text And SENHA = login_senha_input.Text
+                    )
+                ),
+                Set(_log,login_email_input.Text),
+                Navigate(
+                    Tela_Wishlist,
+                    ScreenTransition.Cover
+                );
+                UpdateContext({erroLogin: false}),
+                UpdateContext({erroLogin: true});
+                Reset(login_email_input),
+                Reset(login_senha_input)
+            )
         X: =540
         Y: =936
         ZIndex: =10

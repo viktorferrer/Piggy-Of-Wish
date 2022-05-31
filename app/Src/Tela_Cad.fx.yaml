@@ -20,7 +20,7 @@ Tela_Cad As screen:
     Icon1_1 As icon.ArrowRight:
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ArrowRight
-        OnSelect: =SubmitForm(Form_Cad)
+        OnSelect: =SubmitForm(Form_Cad);Set(_log,DataCardValue5.Text)
         X: =540
         Y: =936
         ZIndex: =9
