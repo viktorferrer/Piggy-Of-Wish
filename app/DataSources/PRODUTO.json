@@ -8,6 +8,7 @@
     },
     "ConnectedDataSourceInfoNameMapping": {
       "ID_PRODUTO": "ID_PRODUTO",
+      "ID_USUARIO_FK": "ID_USUARIO_FK",
       "LINK": "LINK",
       "MARCA": "MARCA",
       "NOME": "NOME",

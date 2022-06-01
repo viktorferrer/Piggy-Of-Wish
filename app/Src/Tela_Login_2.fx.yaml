@@ -2,7 +2,14 @@
     Fill: =RGBA(255, 255, 255, 1)
 
     "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Items: =myCollection
         Layout: =Layout.Vertical
+        OnSelect: |-
+            =ClearCollect(myCollection,
+                AddColumns(
+                    PRODUTO,
+                    "tESTE",
+                    LookUp(PRODUTO, ID_USUARIO_FK=USUARIO[@ID_USUARIO])))
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
         Y: =60
@@ -23,7 +30,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleHeading
+            Text: =ThisItem.NOME
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - Image4.Width - 104
             X: =Image4.X + Image4.Width + 24
@@ -37,7 +44,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleText
+            Text: =ThisItem.NOME
             VerticalAlign: =VerticalAlign.Top
             Width: =Title2.Width
             X: =Title2.X
