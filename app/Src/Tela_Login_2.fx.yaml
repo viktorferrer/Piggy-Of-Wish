@@ -1,79 +1,6 @@
 "Tela_Login_2 As screen.'phoneLayout_Success_ver3.0'":
     Fill: =RGBA(255, 255, 255, 1)
 
-    "Gallery4 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =myCollection
-        Layout: =Layout.Vertical
-        OnSelect: |-
-            =ClearCollect(myCollection,
-                AddColumns(
-                    PRODUTO,
-                    "tESTE",
-                    LookUp(PRODUTO, ID_USUARIO_FK=USUARIO[@ID_USUARIO])))
-        TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
-        Y: =60
-        ZIndex: =5
-
-        Image4 As image:
-            Height: =128
-            OnSelect: =Select(Parent)
-            Width: =128
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =1
-
-        Title2 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.NOME
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - Image4.Width - 104
-            X: =Image4.X + Image4.Width + 24
-            Y: =44
-            ZIndex: =2
-
-        Subtitle2 As label:
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Text: =ThisItem.NOME
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Title2.Width
-            X: =Title2.X
-            Y: =Title2.Y + Title2.Height + 4
-            ZIndex: =3
-
-        NextArrow1 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Height: =60
-            Icon: =Icon.ChevronRight
-            OnSelect: =Select(Parent)
-            PaddingBottom: =10
-            PaddingLeft: =10
-            PaddingRight: =10
-            PaddingTop: =10
-            TabIndex: =0
-            Tooltip: ="Exibir detalhes do item"
-            Width: =60
-            X: =Parent.TemplateWidth - Self.Width - 5
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
-            ZIndex: =4
-
-        Separator2 As rectangle:
-            Height: =1
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - 1
-            ZIndex: =5
-
     Group1_1 As group:
         Height: =5
         Width: =5
@@ -132,4 +59,94 @@
                 X: =121
                 Y: =20
                 ZIndex: =2
+
+    Button2 As button:
+        Height: =70
+        OnSelect: |-
+            =ClearCollect(
+                myCollection,
+                AddColumns(
+                    PRODUTO,
+                    "Produto",
+                        First(Filter(
+                            USUARIO,
+                            ID_USUARIO_FK = USUARIO[@ID_USUARIO]
+                        ))
+                    
+                )
+            )
+        Size: =24
+        Text: ="Botão"
+        Width: =280
+        X: =168
+        Y: =90
+        ZIndex: =6
+
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Items: =Ungroup(myCollection,"Produto")
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =Min(160, Self.Height - 60)
+        Y: =189
+        ZIndex: =7
+
+        Image4 As image:
+            Height: =128
+            Image: =ThisItem.LINK
+            OnSelect: =Select(Parent)
+            Width: =128
+            X: =16
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+        Title2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.NOME
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.TemplateWidth - Image4.Width - 104
+            X: =Image4.X + Image4.Width + 24
+            Y: =44
+            ZIndex: =2
+
+        Subtitle2 As label:
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.MARCA
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title2.Width
+            X: =Title2.X
+            Y: =Title2.Y + Title2.Height + 4
+            ZIndex: =3
+
+        NextArrow1 As icon.ChevronRight:
+            AccessibleLabel: =Self.Tooltip
+            Height: =60
+            Icon: =Icon.ChevronRight
+            OnSelect: =Select(Parent)
+            PaddingBottom: =10
+            PaddingLeft: =10
+            PaddingRight: =10
+            PaddingTop: =10
+            TabIndex: =0
+            Tooltip: ="Exibir detalhes do item"
+            Width: =60
+            X: =Parent.TemplateWidth - Self.Width - 5
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =4
+
+        Separator2 As rectangle:
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - 1
+            ZIndex: =5
 
