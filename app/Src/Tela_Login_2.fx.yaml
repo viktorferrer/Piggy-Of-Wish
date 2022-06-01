@@ -60,34 +60,26 @@
                 Y: =20
                 ZIndex: =2
 
-    Button2 As button:
-        Height: =70
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
+        Items: =Ungroup(myCollection,"Produto")
+        Layout: =Layout.Vertical
         OnSelect: |-
             =ClearCollect(
                 myCollection,
                 AddColumns(
                     PRODUTO,
                     "Produto",
-                        First(Filter(
+                    First(
+                        Filter(
                             USUARIO,
-                            ID_USUARIO_FK = USUARIO[@ID_USUARIO]
-                        ))
-                    
+                            ID_USUARIO = PRODUTO[@ID_USUARIO_FK]&& _log = EMAIL)
+                        
+                    )
                 )
             )
-        Size: =24
-        Text: ="Botão"
-        Width: =280
-        X: =168
-        Y: =90
-        ZIndex: =6
-
-    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =Ungroup(myCollection,"Produto")
-        Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        Y: =189
+        Y: =94
         ZIndex: =7
 
         Image4 As image:
@@ -120,7 +112,7 @@
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.MARCA
+            Text: =ThisItem.VALOR
             VerticalAlign: =VerticalAlign.Top
             Width: =Title2.Width
             X: =Title2.X
@@ -149,4 +141,50 @@
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =5
+
+    Button3 As button:
+        Height: =70
+        OnSelect: |-
+            =ClearCollect(
+                myCollection,
+                AddColumns(
+                    PRODUTO,
+                    "Produto",
+                    First(
+                        Filter(
+                            USUARIO,
+                            ID_USUARIO = PRODUTO[@ID_USUARIO_FK] And EMAIL = _log
+                        )
+                    )
+                )
+            )
+        Size: =24
+        Text: ="Botão"
+        Width: =280
+        X: =203
+        Y: =722
+        ZIndex: =8
+
+    Button4 As button:
+        Height: =70
+        OnSelect: |-
+            =ClearCollect(
+                myCollection,
+                AddColumns(
+                    PRODUTO,
+                    "Produto",
+                    First(
+                        Filter(
+                            USUARIO,
+                            ID_USUARIO = PRODUTO[@ID_USUARIO_FK] && _log = EMAIL)
+                        
+                    )
+                )
+            )
+        Size: =24
+        Text: ="Botão"
+        Width: =280
+        X: =263
+        Y: =891
+        ZIndex: =9
 

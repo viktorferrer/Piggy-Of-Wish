@@ -101,15 +101,15 @@
         Color: =RGBA(255, 255, 255, 1)
         Icon: =Icon.ArrowRight
         OnSelect: |-
-            =If(
+            =If(!IsBlank(login_email_input),  Set(_log,login_email_input.Text))
+            ;If(
                 !IsBlank(
                     LookUp(
                         USUARIO,
                         EMAIL = login_email_input.Text And SENHA = login_senha_input.Text
                     )
                 ),
-                Set(_log,login_email_input.Text),
-                Navigate(
+                  Navigate(
                     Tela_Wishlist,
                     ScreenTransition.Cover
                 );
