@@ -61,7 +61,7 @@
                 ZIndex: =2
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        Items: =Ungroup(myCollection,"Produto")
+        Items: =myCollection
         Layout: =Layout.Vertical
         OnSelect: |-
             =ClearCollect(
@@ -176,7 +176,7 @@
                     First(
                         Filter(
                             USUARIO,
-                            ID_USUARIO = PRODUTO[@ID_USUARIO_FK] && _log = EMAIL)
+                            ID_USUARIO = PRODUTO[@ID_USUARIO_FK], EMAIL = _log)
                         
                     )
                 )

@@ -88,3 +88,80 @@
                 Y: =20
                 ZIndex: =2
 
+    opt_mensal As checkbox:
+        Height: =85
+        Size: =21
+        Text: ="Mensal"
+        Width: =280
+        X: =60
+        Y: =569
+        ZIndex: =19
+
+    opt_semanal As checkbox:
+        Height: =85
+        Size: =21
+        Text: ="Semanal"
+        Width: =280
+        X: =335
+        Y: =444
+        ZIndex: =20
+
+    opt_diario As checkbox:
+        Height: =85
+        Size: =21
+        Text: ="Diário"
+        Width: =280
+        X: =60
+        Y: =444
+        ZIndex: =21
+
+    TextInput1 As text:
+        Default: =""
+        Format: =Numeric
+        Height: =66
+        OnSelect: =Set(_valorIni,0)
+        Size: =21
+        Width: =412
+        X: =109
+        Y: =282
+        ZIndex: =22
+
+    TextInput1_1 As text:
+        Default: =_qtdTempo
+        Height: =79
+        OnSelect: =Set(_qtdTempo,0)
+        Size: =21
+        Width: =126
+        X: =251
+        Y: =701
+        ZIndex: =23
+
+    Icon4 As icon.Add:
+        Height: =47
+        Icon: =Icon.ChevronUp
+        OnSelect: =Set(_qtdTempo,_qtdTempo+15)
+        Width: =51
+        X: =424
+        Y: =717
+        ZIndex: =24
+
+    Icon4_1 As icon.Add:
+        Height: =47
+        Icon: =Icon.ChevronDown
+        OnSelect: =Set(_qtdTempo,_qtdTempo-15)
+        Visible: =If(_qtdTempo<15,false,true)
+        Width: =51
+        X: =154
+        Y: =717
+        ZIndex: =25
+
+    TextInput1_2 As text:
+        Default: =
+        Height: =79
+        OnSelect: =If(opt_diario.Value = true,_qtdTempo*10)
+        Size: =21
+        Width: =126
+        X: =257
+        Y: =888
+        ZIndex: =26
+
