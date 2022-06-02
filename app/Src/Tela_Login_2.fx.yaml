@@ -79,7 +79,7 @@
             )
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        Y: =94
+        Y: =127
         ZIndex: =7
 
         Image4 As image:
@@ -153,7 +153,7 @@
                     First(
                         Filter(
                             USUARIO,
-                            ID_USUARIO = PRODUTO[@ID_USUARIO_FK] And EMAIL = _log
+                            ID_USUARIO = PRODUTO[@ID_USUARIO_FK]
                         )
                     )
                 )
