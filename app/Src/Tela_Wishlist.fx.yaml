@@ -15,6 +15,18 @@
         Height: =233
         Items: =myCollection
         Layout: =Layout.Vertical
+        OnSelect: |-
+            =ClearCollect(
+                myCollection,
+                AddColumns(
+                    Filter(
+                        PRODUTO,
+                        ID_USUARIO_FK = _loged
+                    ),
+                    "Produtos",
+                    ID_PRODUTO
+                )
+            )
         ShowScrollbar: =false
         TemplatePadding: =0
         TemplateSize: =156

@@ -148,14 +148,12 @@
             =ClearCollect(
                 myCollection,
                 AddColumns(
-                    PRODUTO,
-                    "Produto",
-                    First(
-                        Filter(
-                            USUARIO,
-                            ID_USUARIO = PRODUTO[@ID_USUARIO_FK]
-                        )
-                    )
+                    Filter(
+                        PRODUTO,
+                        ID_USUARIO_FK = 1
+                    ),
+                    "Produtos",
+                    ID_PRODUTO
                 )
             )
         Size: =24

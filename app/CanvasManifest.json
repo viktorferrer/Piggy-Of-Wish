@@ -81,10 +81,10 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "fced5159-1b78-4909-826c-e356b85de3a5",
-    "Id": "fced5159-1b78-4909-826c-e356b85de3a5",
+    "Id": "e7d43d9b-d9ef-4602-a81d-29a77423d723",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "Piggy of Wishes",
+    "Name": "Piggy+of+Wishes.msapp",
     "OriginatingVersion": "1.323"
   },
   "PublishInfo": {
